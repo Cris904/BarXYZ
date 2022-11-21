@@ -24,6 +24,8 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
+create database fosdb;
+use fosdb;
 --
 -- Estructura de tabla para la tabla `tbl_admin`
 --
@@ -80,18 +82,18 @@ CREATE TABLE `tbl_menuitem` (
 --
 
 INSERT INTO `tbl_menuitem` (`itemID`, `menuID`, `menuItemName`, `price`) VALUES
-(17, 8, 'Huevos en Caserola', '5000.00'),
-(19, 8, 'Huevos Revueltos', '5000.00'),
-(20, 8, 'Carne en Bistec', '6000.00'),
-(21, 8, 'Calentado', '6000.00'),
-(22, 9, 'Filete de Pollo', '6000.00'),
-(23, 9, 'Filete de Carne', '6000.00'),
-(24, 9, 'Chuleta de Pollo', '6000.00'),
-(25, 9, 'Chuleta de Res', '6000.00'),
-(26, 9, 'Chuleta de Cerdo', '6000.00'),
-(27, 9, 'Res Asada', '6000.00'),
-(28, 9, 'Pollo Asado', '6000.00'),
-(29, 9, 'Pollo Frito', '6000.00'),
+(17, 8, 'Cerveza Artesanal', '5000.00'),
+(19, 8, 'Cerveza Club Colombia', '5000.00'),
+(20, 8, 'Cerveza Poker', '6000.00'),
+(21, 8, 'Cervaza Aguila', '6000.00'),
+(22, 8, 'Cerveza Costeña', '6000.00'),
+(23, 9, 'Ron', '6000.00'),
+(24, 9, 'Whisky', '6000.00'),
+(25, 9, 'Vodka', '6000.00'),
+(26, 9, 'Aguardiente', '6000.00'),
+(27, 9, 'Ginebra', '6000.00'),
+(28, 9, 'Tequila', '6000.00'),
+(29, 9, 'Pisco', '6000.00'),
 (30, 10, 'Tinto', '1000.00'),
 (31, 10, 'CafÃ© con Leche', '1200.00'),
 (32, 10, 'Gaseosa 350 ML', '2000.00'),
@@ -99,9 +101,10 @@ INSERT INTO `tbl_menuitem` (`itemID`, `menuID`, `menuItemName`, `price`) VALUES
 (34, 10, 'Jugo Natural en Agua', '4000.00'),
 (35, 10, 'Jugo Natural en Leche', '5000.00'),
 (36, 10, 'Jugo de Naranja', '3500.00'),
-(37, 11, 'Cremas', '3000.00'),
-(38, 11, 'Sancocho', '3000.00'),
-(39, 11, 'Caldo de Costilla', '3000.00');
+(37, 9, 'Brandy', '3000.00'),
+(38, 11, 'Margarita', '3000.00'),
+(39, 11, 'Mojito', '3000.00'),
+(40, 11, 'Caipirinha', '3000.00');
 
 -- --------------------------------------------------------
 
