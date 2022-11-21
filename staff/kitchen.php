@@ -7,8 +7,8 @@
   if($_SESSION['user_level'] != "staff")
     header("Location: login.php");
 
-  if($_SESSION['user_role'] != "chef") {
-    echo ("<script>window.alert('Available for chef only!'); window.location.href='index.php';</script>");
+  if($_SESSION['user_role'] != "cajero") {
+    echo ("<script>window.alert('Available for cajero only!'); window.location.href='index.php';</script>");
     exit();
   }
   
@@ -45,7 +45,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.php">Restaurante | ConfiguroWeb</a>
+      <a class="navbar-brand mr-1" href="index.php">Bar XYZ</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -86,12 +86,12 @@
           ';
           }
 
-          if ($_SESSION['user_role'] == "chef") {
+          if ($_SESSION['user_role'] == "cajero") {
             echo '
             <li class="nav-item">
               <a class="nav-link" href="kitchen.php">
                 <i class="fas fa-fw fa-utensils"></i>
-                <span>Cocina</span></a>
+                <span>orden</span></a>
             </li>
             ';
           }
@@ -116,11 +116,11 @@
             <li class="breadcrumb-item">
               <a href="index.php">Panel de Control</a>
             </li>
-            <li class="breadcrumb-item active">Cocina</li>
+            <li class="breadcrumb-item active">Ordenes</li>
           </ol>
 
           <!-- Page Content -->
-          <h1>Panel Administrativo de la Cocina</h1>
+          <h1>Panel Administrativo de las ordenes</h1>
           <hr>
           <p>Administrar las órdenes que han sido enviadas hasta acá.</p>
 
@@ -153,7 +153,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Sistema de Restaurante ConfiguroWeb 2020</span>
+              <span>Copyright © Sistema de Bar XYZ 2022</span>
             </div>
           </div>
         </footer>

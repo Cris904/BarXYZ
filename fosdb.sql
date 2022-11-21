@@ -57,10 +57,10 @@ CREATE TABLE `tbl_menu` (
 --
 
 INSERT INTO `tbl_menu` (`menuID`, `menuName`) VALUES
-(8, 'Desayunos'),
-(9, 'Carnes'),
+(8, 'Cerveza'),
+(9, 'Trago'),
 (10, 'Bebidas'),
-(11, 'Sopas');
+(11, 'Coctel');
 
 -- --------------------------------------------------------
 
@@ -176,7 +176,7 @@ CREATE TABLE `tbl_role` (
 --
 
 INSERT INTO `tbl_role` (`role`) VALUES
-('chef'),
+('cajero'),
 ('Mesero');
 
 -- --------------------------------------------------------
@@ -198,12 +198,12 @@ CREATE TABLE `tbl_staff` (
 --
 
 INSERT INTO `tbl_staff` (`staffID`, `username`, `password`, `status`, `role`) VALUES
-(1, 'Juan', '1234abcd..', 'Online', 'chef'),
+(1, 'Juan', '1234abcd..', 'Online', 'cajero'),
 (4, 'Pedro', '1234abcd..', 'Online', 'Mesero'),
-(5, 'Emily', '1234abcd..', 'Online', 'chef'),
-(6, 'Robert', '1234abcd..', 'Online', 'chef'),
+(5, 'Emily', '1234abcd..', 'Online', 'cajero'),
+(6, 'Robert', '1234abcd..', 'Online', 'cajero'),
 (7, 'Sofia', 'abc123', 'Offline', 'Mesero'),
-(9, 'Marin', '1234abcd..', 'Online', 'chef');
+(9, 'Marin', '1234abcd..', 'Online', 'cajero');
 
 --
 -- Índices para tablas volcadas

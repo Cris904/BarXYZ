@@ -19,7 +19,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ConfiguroWeb | Ingreso de Usuario Administrador</title>
+    <title>Ingreso de Usuario Administrador</title>
 
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

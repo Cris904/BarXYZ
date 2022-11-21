@@ -63,7 +63,7 @@
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-      <a class="navbar-brand mr-1" href="index.php">Restaurante | ConfiguroWeb</a>
+      <a class="navbar-brand mr-1" href="index.php">Bar XYZ</a>
 
       <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
@@ -104,12 +104,12 @@
           ';
           }
 
-          if ($_SESSION['user_role'] == "chef") {
+          if ($_SESSION['user_role'] == "cajero") {
             echo '
             <li class="nav-item">
               <a class="nav-link" href="kitchen.php">
                 <i class="fas fa-fw fa-utensils"></i>
-                <span>Kitchen</span></a>
+                <span>orden</span></a>
             </li>
             ';
           }
@@ -180,7 +180,7 @@
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © Sistema de Restaurante ConfiguroWeb 2020</span>
+              <span>Copyright © Sistema de Bar XYZ 2022</span>
             </div>
           </div>
         </footer>

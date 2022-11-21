@@ -1,5 +1,5 @@
 # Aplicación Restaurante
-Restaurante | ConfiguroWeb es una aplicación web que gestiona el orden del menú del restaurante entre el perfil mesero y el chef.
+Restaurante | ConfiguroWeb es una aplicación web que gestiona el orden del menú del restaurante entre el perfil mesero y el cajero.
 
 ## Acceso Admin
 Usuario "admin"
